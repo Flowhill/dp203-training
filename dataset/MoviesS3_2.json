@@ -20,12 +20,15 @@
 		},
 		"schema": [
 			{
+				"name": "ID",
 				"type": "String"
 			},
 			{
+				"name": "Year",
 				"type": "String"
 			},
 			{
+				"name": "Title;",
 				"type": "String"
 			}
 		]
