@@ -1,0 +1,9 @@
+{
+	"name": "df-rtflohil-training",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "1baa0799-52ec-4fdf-9d00-bf5d8a2e86b9",
+		"tenantId": "76a2ae5a-9f00-4f6b-95ed-5d33d77c4d61"
+	}
+}
