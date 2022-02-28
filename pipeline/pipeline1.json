@@ -82,7 +82,10 @@
 				"typeProperties": {
 					"notebookPath": "/adftutorial/mynotebook",
 					"baseParameters": {
-						"input": "@pipeline().parameters.name"
+						"input": {
+							"value": "@pipeline().parameters.name",
+							"type": "Expression"
+						}
 					}
 				},
 				"linkedServiceName": {
