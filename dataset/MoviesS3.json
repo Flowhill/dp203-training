@@ -1,0 +1,36 @@
+{
+	"name": "MoviesS3",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "S3",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AmazonS3Location",
+				"bucketName": "rtflohil-test-bucket",
+				"fileName": "MoviesS3.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "ID",
+				"type": "String"
+			},
+			{
+				"name": "Year",
+				"type": "String"
+			},
+			{
+				"name": "Title;",
+				"type": "String"
+			}
+		]
+	}
+}
